@@ -14,4 +14,6 @@ add_executable(FMSH_Matveev
         .idea/workspace.xml
         main.cpp
         main.h
-        dfdfdf.cpp)
+        dfdfdf.cpp
+        "to 15.10.25.cpp"
+        "to 15.10.25.h")
