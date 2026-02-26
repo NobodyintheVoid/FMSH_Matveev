@@ -1,17 +1,10 @@
 cmake_minimum_required(VERSION 4.0)
-project(FMSH_Matveev)
+project(Shapes)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
-include_directories(.)
-
-add_executable(FMSH_Matveev
-        .idea/.gitignore
-        .idea/editor.xml
-        .idea/FMSH_Matveev.iml
-        .idea/modules.xml
-        .idea/vcs.xml
-        .idea/workspace.xml
-        main.cpp
-        main.h
-        dfdfdf.cpp)
+add_executable(Shapes main.cpp
+        Shape.h
+        Point.h
+        Point.cpp
+        "Triangle.h" "Triangle.cpp" "Circle.cpp" "Circle.h" "Tetragon.cpp" "Tetragon.h")
